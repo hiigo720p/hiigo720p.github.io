@@ -1,0 +1,252 @@
+@media (max-width: 1366px) {
+  html,
+  *,
+  body {
+    font-size: 93%;
+  }
+}
+
+@media (max-width: 1085px) {
+  /* about section start */
+  .about-content {
+    flex-wrap: wrap;
+  }
+
+  .about-content .about-img img {
+    width: 40%;
+  }
+  /* about section end */
+
+  /* education section start */
+  .education-content {
+    flex-wrap: wrap;
+  }
+
+  .education-box {
+    width: 45%;
+  }
+  /* education section end */
+
+  /* --- */
+
+  /* technology section end */
+  .technology-box {
+    width: 30%;
+  }
+  /* technology section end */
+
+  /* tools section start */
+  .tools-box {
+    width: 30%;
+  }
+  /* tools section end */
+}
+
+@media (max-width: 768px) {
+  html,
+  *,
+  body {
+    font-size: 84%;
+  }
+
+  .navbar-list {
+    position: absolute;
+    height: 100vh;
+    background: #111825;
+    width: 230px;
+    right: -230px;
+    transition: 250ms ease-in-out;
+    cursor: pointer;
+    top: 100%;
+  }
+
+  .navbar-list a {
+    display: block;
+    padding: 2rem auto;
+    margin: 4rem;
+  }
+
+  .navbar-list a:hover::after {
+    width: 50%;
+  }
+
+  #times {
+    font-size: 2rem;
+    margin: 2rem 2rem 0;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  #times:hover {
+    color: var(--primary);
+  }
+
+  .navbar-extra {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2rem;
+  }
+
+  .navbar-extra:hover {
+    color: var(--primary);
+  }
+
+  /* hero section start */
+  .content-hero p {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+  /* hero section end */
+
+  /* about section start */
+  .about {
+    padding: 10rem 7%;
+  }
+
+  .about-content .about-img img {
+    width: 70%;
+  }
+
+  /* about section end */
+
+  /* education section start */
+
+  /* education section end */
+
+  /* --- */
+
+  /* technology section end */
+  .technology-box {
+    width: 46%;
+  }
+  /* technology section end */
+
+  /* tools section start */
+  .tools-box {
+    width: 46%;
+  }
+  /* tools section end */
+
+  /* section portfolio */
+  .portfolio {
+    padding: 10rem 7%;
+  }
+
+  .portfolio-row {
+    gap: 3rem;
+  }
+
+  .portfolio-row .box-portfolio {
+    width: calc(100% / 2 - 2rem);
+  }
+}
+
+@media (max-width: 576px) {
+  html,
+  *,
+  body {
+    font-size: 80%;
+  }
+
+  /* section portfolio */
+  .portfolio-row {
+    gap: 4rem;
+  }
+
+  .portfolio-row .box-portfolio {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  html,
+  *,
+  body {
+    font-size: 78%;
+  }
+
+  .about-content .about-img img {
+    width: 100%;
+  }
+
+  /* education section start */
+  .education-content {
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .education-box {
+    width: 100%;
+    justify-content: start;
+  }
+  /* education section end */
+
+  /* --- */
+
+  /* technology section end */
+  .technology-box {
+    width: 46%;
+  }
+  /* technology section end */
+
+  /* tools section start */
+  .tools-box {
+    width: 46%;
+  }
+  /* tools section end */
+}
+
+@media (max-width: 370px) {
+  /* technology section end */
+  .technology-box {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .technology-box img {
+    width: 18%;
+  }
+
+  .technology-box h4 {
+    font-size: 0.9rem;
+  }
+
+  /* technology section end */
+
+  /* --- */
+
+  /* tools section start */
+  .tools-box {
+    width: 100%;
+    padding: 1rem 2rem;
+  }
+
+  .tools-box img {
+    width: 18%;
+  }
+
+  .tools-box h4 {
+    font-size: 0.9rem;
+  }
+  /* tools section end */
+
+  footer div {
+    display: none;
+  }
+
+  .footer-home {
+    margin-left: 1rem;
+  }
+
+  .footer-home p {
+    font-size: 0.6rem;
+  }
+
+  .footer-home p span {
+    font-size: 0.6rem;
+  }
+
+  .footer-home div {
+    display: none;
+  }
+}
